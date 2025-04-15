@@ -21,8 +21,8 @@ Hooks.once("init", async () => {
     CONFIG.Item.documentClass = Item;
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("lotus-empire", LotusActorSheet, { makeDefault: true });
+    Actors.registerSheet("Lotus_Empire", LotusActorSheet, { makeDefault: true });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("lotus-empire", LotusItemSheet, { makeDefault: true });
+    Items.registerSheet("Lotus_Empire", LotusItemSheet, { makeDefault: true });
 });
