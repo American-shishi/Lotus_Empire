@@ -1,0 +1,24 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "character": {
+        "attributes": {
+          "strength": { "value": 4 },
+          "stamina": { "value": 3 },
+          "speed": { "value": 2 }
+        },
+        "resources": {
+          "health": { "value": 10, "max": 10 },
+          "chi": { "value": 5, "max": 5 }
+        },
+        "currentStance": "crane",
+        "currentForm": 1
+      }
+    }
+  },
+  "Item": {
+    "types": ["school", "stance", "form"],
+    "templates": {}
+  }
+}

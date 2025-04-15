@@ -1,0 +1,47 @@
+{
+  "name": "lotus-empire",
+  "title": "Lotus Empire RPG",
+  "description": "An Eastern fantasy martial arts RPG system.",
+  "version": "0.1.0",
+  "author": "Ryan Helm",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "license": "LICENSE",
+  "esmodules": ["lotus-empire.mjs"],
+  "styles": ["styles/lotus-empire.css"],
+  "packs": [
+    {
+      "name": "schools",
+      "label": "Schools",
+      "path": "packs/schools",
+      "type": "Item",
+      "system": "lotus-empire",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "grid": {
+    "type": 1,
+    "distance": 5,
+    "units": "ft",
+    "diagonals": 1
+  },
+  "socket": true,
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.chi"
+}
