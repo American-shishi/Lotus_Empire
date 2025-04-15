@@ -1,6 +1,7 @@
 {
   "id": "lotus-empire",
   "title": "Lotus Empire RPG",
+  "type": "system",
   "description": "An Eastern fantasy martial arts RPG system.",
   "version": "0.1.0",
   "author": "Ryan Helm",
